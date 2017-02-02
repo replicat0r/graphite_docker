@@ -8,7 +8,7 @@ run	apt-get -y install software-properties-common &&\
 run     apt-get -y install nodejs python-django-tagging python-simplejson python-memcache \
 			    python-ldap python-cairo python-django python-twisted   \
 			    python-pysqlite2 python-support python-pip gunicorn     \
-			    supervisor nginx-light nodejs git wget curl
+			    supervisor nginx-light nodejs git wget curl python-psycopg2
 
 # Install statsd
 run	mkdir /src && git clone https://github.com/etsy/statsd.git /src/statsd

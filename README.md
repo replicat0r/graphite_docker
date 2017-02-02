@@ -26,16 +26,16 @@ accessible from anywhere if the host firewall is unconfigured.
 All data is stored in the /data folder in the container (graphite metrics and grafana db)
 
 
-    docker run -v /data/graphite:/data \
+    docker run -v /Users/tyler/Documents/code/docker/graphite:/data \
                -e SECRET_KEY='random-secret-key' \
-               -p 80:80 \
+               -p 4000:80 \
                -p 3000:3000 \
                -p 2003:2003 \
                -p 2004:2004 \
                -p 7002:7002 \
                -p 8125:8125/udp \
                -p 8126:8126 \
-               -d samsaffron/graphite
+               -d nanoleaf/graphite-grafana:v2.1
 
 ### Technical details
 
