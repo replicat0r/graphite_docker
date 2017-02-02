@@ -44,9 +44,9 @@ STORAGE_DIR = '/data/graphite'
 #LDAP_USER_QUERY = "(username=%s)"  #For Active Directory use "(sAMAccountName=%s)"
 
 # If sqlite won't cut it, configure your real database here (don't forget to run manage.py syncdb!)
-#DATABASE_ENGINE = 'mysql' # or 'postgres'
-#DATABASE_NAME = 'graphite'
-#DATABASE_USER = 'graphite'
-#DATABASE_PASSWORD = 'graphite-is-awesome'
-#DATABASE_HOST = 'mysql.mycompany.com'
-#DATABASE_PORT = '3306'
+DATABASE_ENGINE = 'postgres' # or 'postgres'
+DATABASE_NAME = 'graphite_grafana'
+DATABASE_USER = 'nanoleaf'
+DATABASE_PASSWORD = '5vbV2AVpFpkg4356'
+DATABASE_HOST = 'nanoleaf-graphite-grafana.cdwnqaxfvpzf.us-east-1.rds.amazonaws.com'
+DATABASE_PORT = '5432'
