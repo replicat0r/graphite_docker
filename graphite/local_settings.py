@@ -189,7 +189,7 @@ DEBUG = True
 # This section provides 3 different authorization models, of varying strictness.
 
 # If set to True, users must be logged in to save or delete dashboards. Defaults to False
-#DASHBOARD_REQUIRE_AUTHENTICATION = True
+DASHBOARD_REQUIRE_AUTHENTICATION = True
 
 # If set to the name of a user group, dashboards can be saved and deleted by any user in this
 # group.  Groups can be set in the Django Admin app, or in LDAP.  Defaults to None.
@@ -227,11 +227,11 @@ DEBUG = True
 #
 DATABASES = {
    'default': {
-       'NAME': 'graphite_grafana',
+       'NAME': 'nanoleaf_graphite_db',
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'USER': 'nanoleaf',
-       'PASSWORD': '5vbV2AVpFpkg4356',
-       'HOST': 'nanoleaf-graphite-grafana.cdwnqaxfvpzf.us-east-1.rds.amazonaws.com',
+       'USER': 'SB7va6OCB4',
+       'PASSWORD': '8I52k6J85sXmSjxrIPi3QHcm8ND39gV3',
+       'HOST': 'nanoleaf-graphite.cdwnqaxfvpzf.us-east-1.rds.amazonaws.com',
        'PORT': '5432'
    }
 }

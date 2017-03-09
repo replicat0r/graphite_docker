@@ -28,14 +28,14 @@ All data is stored in the /data folder in the container (graphite metrics and gr
 
     docker run -v /Users/tyler/Documents/code/docker/graphite:/data \
                -e SECRET_KEY='random-secret-key' \
-               -p 4000:80 \
+               -p 4000:4000 \
                -p 3000:3000 \
                -p 2003:2003 \
                -p 2004:2004 \
                -p 7002:7002 \
                -p 8125:8125/udp \
                -p 8126:8126 \
-               -d nanoleaf/graphite-grafana:v2.1
+               -d nanoleaf/graphite-grafana:v2.4
 
 ### Technical details
 
