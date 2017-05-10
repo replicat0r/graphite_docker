@@ -231,7 +231,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'USER': 'SB7va6OCB4',
        'PASSWORD': '8I52k6J85sXmSjxrIPi3QHcm8ND39gV3',
-       'HOST': 'nanoleaf-graphite.cdwnqaxfvpzf.us-east-1.rds.amazonaws.com',
+       'HOST': 'nanoleaf-graphite-db.cdwnqaxfvpzf.us-east-1.rds.amazonaws.com',
        'PORT': '5432'
    }
 }
